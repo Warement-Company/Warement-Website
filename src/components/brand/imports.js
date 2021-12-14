@@ -1,13 +1,9 @@
-import google from '../../assets/google.png';
-import slack from '../../assets/slack.png';
-import atlassian from '../../assets/atlassian.png';
-import dropbox from '../../assets/dropbox.png';
-import shopify from '../../assets/shopify.png';
+import expressdev from '../../assets/Expressdev.png';
+import gamerprizes from '../../assets/Gamer-Prizes.png';
+import placasexpress from '../../assets/placasexpress.png';
 
 export {
-  google,
-  slack,
-  atlassian,
-  dropbox,
-  shopify,
+  expressdev,
+  gamerprizes,
+  placasexpress,
 };

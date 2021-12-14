@@ -5,16 +5,16 @@ import './whatGPT3.css';
 const WhatGPT3 = () => (
   <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
     <div className="gpt3__whatgpt3-feature">
-      <Feature title="What is GPT-3" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by." />
+      <Feature title="What is Warement" text="We seek to ensure that our customers have the best possible experience with our sales team and our services. We guarantee you a quality service, and an incredible experience with our services." />
     </div>
     <div className="gpt3__whatgpt3-heading">
       <h1 className="gradient__text">The possibilities are beyond your imagination</h1>
-      <p>Explore the Library</p>
+      <p>Explore our services</p>
     </div>
     <div className="gpt3__whatgpt3-container">
-      <Feature title="Chatbots" text="We so opinion friends me message as delight. Whole front do of plate heard oh ought." />
-      <Feature title="Knowledgebase" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
-      <Feature title="Education" text="At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b" />
+      <Feature title="Ideation & App Prototyping" text="Creating many ideas in ideation sessions. Adopting a hands-on approach in prototyping. Developing a testable prototype/solution to the problem" />
+      <Feature title="Product Design" text="We have skilled designers to help you choose the best design for your product." />
+      <Feature title="Web Development" text="We have the best developers on the market to make your idea come out of the paper." />
     </div>
   </div>
 );
