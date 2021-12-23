@@ -18,9 +18,9 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Social Media</h4>
-        <p>Facebook</p>
-        <p>Instagram</p>
-        <p>Twitter</p>
+        <p><a href="https://www.facebook.com/Warement">Facebook</a></p>
+        <p><a href="https://www.instagram.com/warement_/">Instagram</a></p>
+        <p><a href="https://twitter.com/Warement_">Twitter</a></p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Company</h4>
@@ -30,7 +30,7 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <p>085-132567</p>
+        <p>+55 (11) 99341-2275</p>
         <p>info@warement.dev</p>
       </div>
     </div>
