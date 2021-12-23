@@ -9,8 +9,6 @@ const Navbar = () => {
 
   const location = useLocation();
 
-  console.log('location', location);
-
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
