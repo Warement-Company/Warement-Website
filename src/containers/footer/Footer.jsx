@@ -26,7 +26,7 @@ const Footer = () => (
         <h4>Company</h4>
         <p>Terms & Conditions </p>
         <p>Privacy Policy</p>
-        <p>Contact</p>
+        <p><a href="/contact">Contact</a></p>
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
