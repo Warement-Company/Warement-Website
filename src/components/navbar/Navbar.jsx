@@ -33,8 +33,7 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="/">Home</a></p>
-            <p><a href="#warement">What is Warement?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
+            {location.pathname === '/' ? <><p><a href="#warement">What is Warement?</a></p><p><a href="#possibility">Open AI</a></p></> : null}
             <p><a href="/services">Services</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
