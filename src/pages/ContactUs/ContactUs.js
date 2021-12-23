@@ -9,11 +9,11 @@ const ContactUs = () => (
   <div className="App">
     <Navbar />
     <div className="container">
-      <div className="heading">
+      <div className="heading__product">
         <h1 className="title">
           Contact us
         </h1>
-        <p className="description">Let&apos;s talk about your idea – fill out the form on the right and we&apos;ll get back to you shortly. We can&apos;t wait to start working with you!</p>
+        <p className="description__contact">Let&apos;s talk about your idea – fill out the form on the right and we&apos;ll get back to you shortly. We can&apos;t wait to start working with you!</p>
       </div>
       <form className="form">
         <h2 className="title__form">Fill out the form</h2>

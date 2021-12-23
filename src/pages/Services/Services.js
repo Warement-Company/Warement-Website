@@ -1,7 +1,8 @@
 import React from 'react';
 
-import { MdOutlineDesignServices, MdTouchApp } from 'react-icons/md';
+import { MdOutlineDesignServices, MdOutlineTouchApp } from 'react-icons/md';
 import { BiCodeAlt } from 'react-icons/bi';
+import { GiTargetShot } from 'react-icons/gi';
 
 import './services.css';
 
@@ -65,10 +66,28 @@ const Services = () => (
               margin: '20px',
             }}
           >
-            <MdTouchApp style={{ color: '#f09716' }} size="large" />
+            <MdOutlineTouchApp style={{ color: '#f09716' }} size="large" />
           </div>
           <h1 className="title__card">Mobile Development</h1>
           <p className="description__card">A smooth mobile development process to optimize your application for most popular devices and ensure the best user experience.</p>
+        </div>
+        <div className="card">
+          <div
+            style={{
+              display: 'flex',
+              height: '50px',
+              width: '50px',
+              backgroundColor: '#6d8bd6',
+              borderRadius: '8px',
+              alignItems: 'center',
+              justifyContent: 'center',
+              margin: '20px',
+            }}
+          >
+            <GiTargetShot style={{ color: '#154cd6' }} size="large" />
+          </div>
+          <h1 className="title__card">SEO</h1>
+          <p className="description__card">Search Engine Optimization studies and strategies to enhance and expand the number of visits and consequently the number of searches on your site.</p>
         </div>
       </div>
     </div>
