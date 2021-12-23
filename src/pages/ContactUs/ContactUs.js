@@ -8,7 +8,7 @@ import './contactUs.css';
 const ContactUs = () => (
   <div className="App">
     <Navbar />
-    <div className="container">
+    <div className="container__contact">
       <div className="heading__product">
         <h1 className="title">
           Contact us
@@ -17,9 +17,9 @@ const ContactUs = () => (
       </div>
       <form className="form">
         <h2 className="title__form">Fill out the form</h2>
-        <input type="name" placeholder="Full name" />
-        <input type="email" placeholder="Email address" />
-        <textarea cols="30" rows="5" placeholder="Message" />
+        <input className="form_input__contact" type="name" placeholder="Full name" />
+        <input className="form_input__contact" type="email" placeholder="Email address" />
+        <textarea className="form_input__contact" cols="30" rows="5" placeholder="Message" />
         <button className="btn-contact" type="button">Send Message</button>
       </form>
     </div>
