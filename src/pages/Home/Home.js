@@ -1,18 +1,18 @@
 import React from 'react';
 
-import { Footer, Possibility, WhatGPT3, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { Footer, Possibility, WhatWarement, Header } from '../../containers';
+import { CTA, Brand, Navbar } from '../../components';
 
-import './App.css';
+import './home.css';
 
-const App = () => (
+const Home = () => (
   <div className="App">
     <div className="gradient__bg">
       <Navbar />
       <Header />
     </div>
     <Brand />
-    <WhatGPT3 />
+    <WhatWarement />
     {/* <Features /> */}
     <Possibility />
     <CTA />
@@ -21,4 +21,4 @@ const App = () => (
   </div>
 );
 
-export default App;
+export default Home;
